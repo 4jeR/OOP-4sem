@@ -39,7 +39,7 @@ std::vector<Wheel*>& Car::WheelsVector()const{
 
 std::ostream& operator<<(std::ostream& out, const Car& car){
     std::cout << "[INFO] Car:: Type " << car.m_name << std::endl;
-    std::cout << "[INFO] Car:: Color " << s_kolor << " [cm^3]"<< std::endl;
+    std::cout << "[INFO] Car:: Color " << s_kolor << std::endl;
     std::cout << car.m_engine;
     return out;
 }
