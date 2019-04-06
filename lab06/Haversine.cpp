@@ -75,11 +75,9 @@ Distance::Distance(const Coordinate& c1, const Coordinate& c2)
 
 
 
-Distance::Distance(float long1, float lat1, float long2, float lat2){
-    m_cord1.Longitude(long1);
-    m_cord1.Latitude(lat1);
-    m_cord2.Longitude(long2);
-    m_cord2.Latitude(lat2);
+Distance::Distance(float long1, float lat1, float long2, float lat2)
+:Distance(Coordinate(long1,lat1),Coordinate(long2,lat2))
+{
 }
 
 
