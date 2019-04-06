@@ -33,11 +33,26 @@ public:
     */
     void SetName(std::string& name);
 
-
+    /**
+     * @fn UpdateLocation       
+     * @brief            aktualizuje wspolrzedne GPS
+     * @param float      longitude - dlugosc geograficzna
+     * @param float      latitude - szerokosc geograficzna
+    */
     void UpdateLocation(float longitude, float latitude);
 
+    /**
+     * @fn Coords      
+     * @brief               getter dla m_coords
+     * @return Coordinate&  wspolrzedne gps w postaci Coordinate
+    */
     Coordinate& Coords();
 
+    /**
+     * @fn GpsLoc
+     * @brief               wypisuje informacje o polozeniu GPS
+     * @return string       informacja o polozeniu GPS
+    */
     std::string GpsLoc()const;
 
 private:
