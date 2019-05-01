@@ -1,2 +1,3 @@
 # OOP_4sem
-Lab exercises from my 4th semester on AGH University.
+Object Oriented Programming in C++ Lab exercises from my 4th semester on AGH University.
+
